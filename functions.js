@@ -1,4 +1,3 @@
-module.exports.Fitness = Fitness;
 
 function map(arr, func, _count=0, _new_arr=[]) {
     _new_arr[_count] = func(arr[_count]);
